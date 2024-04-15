@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Color palatte used are 
+yellow - #F7FF5C
+dark teal - #006E60
+dark color - #324000
+light color - #F2FEDC*/
+body{
+    background: #F7FF5C;
+    font-family: "Poppins", sans-serif;
+}
+section{
+    padding: 0 10vw;
+}
+
+
+nav {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo{
+    font-size: 5vh;
+    color: #324000;
+    /* margin-left: 30px; */
+    font-weight: 700;
+}
+
+.menu {
+    font-size: 3vh;
+    display: flex;
+    font-weight: 700;
+    /* margin-right: 30px; */
+    gap: 5vw;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #324000;
+}
+
+.home {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    
+}
+
+.home h1{
+    color: #006E60;
+    display: flex;
+    flex-direction: column;
+    font-size: 18vh;
+}
+
+.home h1 span{
+    padding-left: 10vw;
+}
+
+.about{
+    align-items: center;
+    background-color: #006E60;
+    color:#F7FF5C;
+    display: flex;
+    height: 100vh;
+    gap: 2vw;
+}
+.intro {
+    padding-top: 5.8vh;
+    font-size: 3.5vh;
+    font-weight: 400;
+}
+
+.about img{
+    height: 50vh;
+    border-radius: 50%;
+}
+
+.linearmodel{
+    padding-top: 5vh;
+    height: 100vh;
+    color: #006E60;
+}
+.linearmodel h2{
+    font-size: 8vh;
+}
+.linearmodel p{
+font-size: 2rem;
+}
+.linear-content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20vh;
+}
+
+.classificationmodel{
+    color:#F7FF5C;
+    height: 100vh;
+    background-color: #324000;
+    padding-top: 5vh;
+}
+
+.classificationmodel h2{
+    font-size: 8vh;
+}
