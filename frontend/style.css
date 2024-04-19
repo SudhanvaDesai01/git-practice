@@ -65,8 +65,8 @@ nav {
 
 .about{
     align-items: center;
-    background-color: #006E60;
-    color:#F7FF5C;
+    background-color: #fff;
+    color:#006E60;
     display: flex;
     height: 100vh;
     gap: 2vw;
